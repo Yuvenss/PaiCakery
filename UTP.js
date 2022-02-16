@@ -6900,7 +6900,7 @@ if (reversed == null) { reversed = false; }
 		this.cakeList.addEventListener('click', redirectTocakeList.bind(this));
 		
 		function redirectExit(){
-			sound = null;
+			sound.stop();
 			this.gotoAndPlay(473)
 		}
 		
@@ -8191,31 +8191,31 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_121.png?1644726646987", id:"CachedBmp_121"},
-		{src:"images/CachedBmp_83.png?1644726646987", id:"CachedBmp_83"},
-		{src:"images/CachedBmp_82.png?1644726646987", id:"CachedBmp_82"},
-		{src:"images/CachedBmp_4.png?1644726646987", id:"CachedBmp_4"},
-		{src:"images/CachedBmp_3.png?1644726646987", id:"CachedBmp_3"},
-		{src:"images/CachedBmp_2.png?1644726646987", id:"CachedBmp_2"},
-		{src:"images/pngwingcom.png?1644726646987", id:"pngwingcom"},
-		{src:"images/UTP_atlas_1.png?1644726646682", id:"UTP_atlas_1"},
-		{src:"images/UTP_atlas_2.png?1644726646682", id:"UTP_atlas_2"},
-		{src:"images/UTP_atlas_3.png?1644726646682", id:"UTP_atlas_3"},
-		{src:"images/UTP_atlas_4.png?1644726646682", id:"UTP_atlas_4"},
-		{src:"images/UTP_atlas_5.png?1644726646682", id:"UTP_atlas_5"},
-		{src:"images/UTP_atlas_6.png?1644726646682", id:"UTP_atlas_6"},
-		{src:"images/UTP_atlas_7.png?1644726646683", id:"UTP_atlas_7"},
-		{src:"images/UTP_atlas_8.png?1644726646683", id:"UTP_atlas_8"},
-		{src:"images/UTP_atlas_9.png?1644726646683", id:"UTP_atlas_9"},
-		{src:"images/UTP_atlas_10.png?1644726646683", id:"UTP_atlas_10"},
-		{src:"images/UTP_atlas_11.png?1644726646683", id:"UTP_atlas_11"},
-		{src:"images/UTP_atlas_12.png?1644726646684", id:"UTP_atlas_12"},
-		{src:"images/UTP_atlas_13.png?1644726646684", id:"UTP_atlas_13"},
-		{src:"images/UTP_atlas_14.png?1644726646685", id:"UTP_atlas_14"},
-		{src:"images/UTP_atlas_15.png?1644726646686", id:"UTP_atlas_15"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1644726646987", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1644726646987", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1644726646987", id:"an.Video"}
+		{src:"images/CachedBmp_121.png?1644976226246", id:"CachedBmp_121"},
+		{src:"images/CachedBmp_83.png?1644976226246", id:"CachedBmp_83"},
+		{src:"images/CachedBmp_82.png?1644976226246", id:"CachedBmp_82"},
+		{src:"images/CachedBmp_4.png?1644976226246", id:"CachedBmp_4"},
+		{src:"images/CachedBmp_3.png?1644976226246", id:"CachedBmp_3"},
+		{src:"images/CachedBmp_2.png?1644976226246", id:"CachedBmp_2"},
+		{src:"images/pngwingcom.png?1644976226246", id:"pngwingcom"},
+		{src:"images/UTP_atlas_1.png?1644976225199", id:"UTP_atlas_1"},
+		{src:"images/UTP_atlas_2.png?1644976225199", id:"UTP_atlas_2"},
+		{src:"images/UTP_atlas_3.png?1644976225199", id:"UTP_atlas_3"},
+		{src:"images/UTP_atlas_4.png?1644976225199", id:"UTP_atlas_4"},
+		{src:"images/UTP_atlas_5.png?1644976225200", id:"UTP_atlas_5"},
+		{src:"images/UTP_atlas_6.png?1644976225200", id:"UTP_atlas_6"},
+		{src:"images/UTP_atlas_7.png?1644976225200", id:"UTP_atlas_7"},
+		{src:"images/UTP_atlas_8.png?1644976225201", id:"UTP_atlas_8"},
+		{src:"images/UTP_atlas_9.png?1644976225201", id:"UTP_atlas_9"},
+		{src:"images/UTP_atlas_10.png?1644976225201", id:"UTP_atlas_10"},
+		{src:"images/UTP_atlas_11.png?1644976225202", id:"UTP_atlas_11"},
+		{src:"images/UTP_atlas_12.png?1644976225203", id:"UTP_atlas_12"},
+		{src:"images/UTP_atlas_13.png?1644976225204", id:"UTP_atlas_13"},
+		{src:"images/UTP_atlas_14.png?1644976225205", id:"UTP_atlas_14"},
+		{src:"images/UTP_atlas_15.png?1644976225206", id:"UTP_atlas_15"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1644976226246", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1644976226246", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1644976226246", id:"an.Video"}
 	],
 	preloads: []
 };
